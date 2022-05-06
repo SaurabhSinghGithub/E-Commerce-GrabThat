@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar CSS */
+
+
+.navbar {
+    height: 65px;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .logo {
+    height: 25px;
+    display: flex;
+    margin: 0 26px;
+
+
+}
+
+.navbar .logo img {
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+
+.navbar .nav-list {
+    display: flex;
+
+
+}
+
+.navbar li {
+
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar li a:hover {
+
+    color: blue;
+
+}
+
+.search {
+    margin: 0px 30px;
+}
+
+.search input {
+    border-radius: 10px;
+    width: 409px;
+    padding: 5px;
+}
+
+.search .btn {
+    border-radius: 10px;
+    padding: 5px;
+    width: 68px;
+    margin-left: 8px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
+/* Main css */
+
+main {
+    padding: 10px;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Content css */
+
+.card {
+    padding: 10px;
+}
+
+.card .header {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards .card-items {
+    margin: 0px 20px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .card-items img {
+
+    margin-right: 15px;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #2874f0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
